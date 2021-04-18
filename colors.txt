@@ -1,0 +1,3 @@
+main bg: #1A2028
+accent bg 1: #1A3357
+accent highlight: #1B4E9E
