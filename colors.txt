@@ -1,3 +1,18 @@
-main bg: #1A2028
-accent bg 1: #1A3357
-accent highlight: #1B4E9E
+-- Background/Forground Shades --
+0: #090b0e
+1: #191e23
+2: #2a3138
+3: #6a7988
+4: #8192a5
+5: #c6d0db
+6: #cdd5df
+7: #d3dbe3
+-- Color Pallete --
+Red:      #ff3335
+Blue:     #5f9eff
+Green:    #01e600
+Yellow:   #cdcd00
+Orange:   #fb7e00
+Cyan:     #00dddc
+Magenta:  #ff27ff
+Violet:   #ae67ff
