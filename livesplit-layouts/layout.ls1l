@@ -3,19 +3,11 @@
         {
             "Title": {
                 "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.13
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0
-                        ]
+                    "Plain": [
+                        0.09803922,
+                        0.11764706,
+                        0.13725491,
+                        1
                     ]
                 },
                 "text_color": null,
@@ -23,77 +15,33 @@
                 "show_category_name": true,
                 "show_finished_runs_count": true,
                 "show_attempt_count": true,
-                "text_alignment": "Auto",
+                "text_alignment": "Center",
                 "display_as_single_line": false,
-                "display_game_icon": true,
+                "display_game_icon": false,
                 "show_region": false,
                 "show_platform": false,
-                "show_variables": true
-            }
-        },
-        {
-            "CurrentComparison": {
-                "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.06
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.005
-                        ]
-                    ]
-                },
-                "display_two_rows": false,
-                "label_color": null,
-                "value_color": null
+                "show_variables": false
             }
         },
         "Separator",
         {
             "Splits": {
                 "background": {
-                    "Alternating": [
-                        [
-                            0,
-                            0,
-                            0,
-                            0
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.04
-                        ]
-                    ]
+                    "Same": "Transparent"
                 },
-                "visual_split_count": 16,
+                "visual_split_count": 18,
                 "split_preview_count": 1,
-                "show_thin_separators": true,
-                "separator_last_split": true,
+                "show_thin_separators": false,
+                "separator_last_split": false,
                 "always_show_last_split": true,
                 "fill_with_blank_space": true,
                 "display_two_rows": false,
                 "current_split_gradient": {
-                    "Vertical": [
-                        [
-                            0.2,
-                            0.4509804,
-                            0.95686275,
-                            1
-                        ],
-                        [
-                            0.08235294,
-                            0.20784314,
-                            0.45490196,
-                            1
-                        ]
+                    "Plain": [
+                        0.16470589,
+                        0.19215687,
+                        0.21960784,
+                        1
                     ]
                 },
                 "show_column_labels": false,
@@ -121,19 +69,11 @@
         {
             "PbChance": {
                 "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.06
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.005
-                        ]
+                    "Plain": [
+                        0.09803922,
+                        0.11764706,
+                        0.13725491,
+                        1
                     ]
                 },
                 "display_two_rows": false,
@@ -144,45 +84,11 @@
         {
             "PossibleTimeSave": {
                 "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.06
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.005
-                        ]
-                    ]
-                },
-                "comparison_override": null,
-                "display_two_rows": false,
-                "total_possible_time_save": true,
-                "label_color": null,
-                "value_color": null,
-                "accuracy": "Hundredths"
-            }
-        },
-        {
-            "PossibleTimeSave": {
-                "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.06
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.005
-                        ]
+                    "Plain": [
+                        0.09803922,
+                        0.11764706,
+                        0.13725491,
+                        1
                     ]
                 },
                 "comparison_override": null,
@@ -196,38 +102,50 @@
         {
             "PreviousSegment": {
                 "background": {
-                    "Vertical": [
-                        [
-                            1,
-                            1,
-                            1,
-                            0.06
-                        ],
-                        [
-                            1,
-                            1,
-                            1,
-                            0.005
-                        ]
+                    "Plain": [
+                        0.09803922,
+                        0.11764706,
+                        0.13725491,
+                        1
                     ]
                 },
                 "comparison_override": null,
                 "display_two_rows": false,
                 "label_color": null,
-                "drop_decimals": false,
-                "accuracy": "Hundredths",
-                "show_possible_time_save": true
+                "drop_decimals": true,
+                "accuracy": "Tenths",
+                "show_possible_time_save": false
             }
         },
+        {
+            "PossibleTimeSave": {
+                "background": {
+                    "Plain": [
+                        0.09803922,
+                        0.11764706,
+                        0.13725491,
+                        1
+                    ]
+                },
+                "comparison_override": null,
+                "display_two_rows": false,
+                "total_possible_time_save": false,
+                "label_color": null,
+                "value_color": null,
+                "accuracy": "Hundredths"
+            }
+        },
+        "Separator",
         {
             "Timer": {
                 "background": "Transparent",
                 "timing_method": null,
                 "height": 60,
                 "color_override": null,
-                "show_gradient": true,
+                "show_gradient": false,
                 "digits_format": "SingleDigitSeconds",
-                "accuracy": "Hundredths"
+                "accuracy": "Hundredths",
+                "is_segment_timer": false
             }
         }
     ],
@@ -235,28 +153,28 @@
         "direction": "Vertical",
         "background": {
             "Plain": [
-                0.06,
-                0.06,
-                0.06,
+                0.03529412,
+                0.043137256,
+                0.05490196,
                 1
             ]
         },
         "best_segment_color": [
-            0.49019608,
-            0.29803923,
+            0.972549,
             1,
+            0,
             1
         ],
         "ahead_gaining_time_color": [
-            0.2,
-            0.46666667,
+            0.34117648,
+            0.627451,
             1,
             1
         ],
         "ahead_losing_time_color": [
-            0.5019608,
-            0.6666667,
-            1,
+            0.68235296,
+            0.8156863,
+            0.9882353,
             1
         ],
         "behind_gaining_time_color": [
@@ -278,9 +196,9 @@
             1
         ],
         "personal_best_color": [
-            0.49019608,
             0.29803923,
             1,
+            0.4,
             1
         ],
         "paused_color": [
@@ -296,15 +214,15 @@
             0.06
         ],
         "separators_color": [
-            1,
-            1,
-            1,
-            0.35
+            0.16470589,
+            0.19215687,
+            0.21960784,
+            1
         ],
         "text_color": [
-            1,
-            1,
-            1,
+            0.7764706,
+            0.8156863,
+            0.85882354,
             1
         ]
     }

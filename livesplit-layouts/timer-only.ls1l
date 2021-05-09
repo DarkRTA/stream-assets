@@ -6,9 +6,9 @@
                 "timing_method": null,
                 "height": 60,
                 "color_override": [
-                    1,
-                    1,
-                    1,
+                    0.7764706,
+                    0.8156863,
+                    0.85882354,
                     1
                 ],
                 "show_gradient": false,
@@ -20,7 +20,14 @@
     ],
     "general": {
         "direction": "Vertical",
-        "background": "Transparent",
+        "background": {
+            "Plain": [
+                0.03529412,
+                0.043137256,
+                0.05490196,
+                1
+            ]
+        },
         "best_segment_color": [
             0.972549,
             1,
@@ -76,15 +83,15 @@
             0.06
         ],
         "separators_color": [
-            0.105882354,
-            0.30588236,
-            0.61960787,
+            0.16470589,
+            0.19215687,
+            0.21960784,
             1
         ],
         "text_color": [
-            1,
-            1,
-            1,
+            0.7764706,
+            0.8156863,
+            0.85882354,
             1
         ]
     }
